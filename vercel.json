@@ -1,10 +1,5 @@
 {
   "outputDirectory": "frontend",
-  "functions": {
-    "api/*.py": {
-      "runtime": "vercel-python@4"
-    }
-  },
   "routes": [
     { "src": "/api/templates", "dest": "/api/templates.py" },
     { "src": "/api/check",     "dest": "/api/check.py" },
