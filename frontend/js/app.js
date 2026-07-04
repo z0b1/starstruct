@@ -76,7 +76,7 @@ depthSlider.addEventListener("input", () => {
 // ── Load templates ────────────────────────────────────────────────────────
 async function loadTemplates() {
   try {
-    const res  = await fetch(`${API}/templates`);
+    const res  = await fetch(`${API}/api/templates`);
     const list = await res.json();
     templateSelect.innerHTML = list
       .map(t => `<option value="${t.id}">${t.label}</option>`)
@@ -134,7 +134,7 @@ checkBtn.addEventListener("click", async () => {
       ...(depth !== null && { depth }),
     };
 
-    const res  = await fetch(`${API}/check`, {
+    const res  = await fetch(`${API}/api/check`, {
       method:  "POST",
       headers: { "Content-Type": "application/json" },
       body:    JSON.stringify(body),
