@@ -1,7 +1,7 @@
 {
   "rewrites": [
-    { "source": "/api/templates", "destination": "/api/templates.py" },
-    { "source": "/api/check",     "destination": "/api/check.py" },
+    { "source": "/api/templates", "destination": "/api/templates" },
+    { "source": "/api/check",     "destination": "/api/check" },
     { "source": "/(.*)",          "destination": "/frontend/$1" }
   ]
 }

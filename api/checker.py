@@ -3,7 +3,7 @@
 
 from __future__ import annotations
 import fnmatch
-from templates import TEMPLATES
+from template_defs import TEMPLATES
 
 # Folders that are collapsed in the tree by default (never recursed into).
 # Templates can extend this list via an "ignore" key.
