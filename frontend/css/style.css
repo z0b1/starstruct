@@ -91,7 +91,7 @@ select {
   background: var(--bg);
   border: 1px solid var(--border);
   border-radius: 8px;
-  color: var(--text);
+  color: black;
   font-family: var(--sans);
   font-size: 0.875rem;
   padding: 10px 12px;
