@@ -1,5 +1,6 @@
 // ── Config ────────────────────────────────────────────────────────────────
-const API = "http://localhost:8000";
+// On Vercel, API routes are on the same domain
+const API = "";
 
 // ── Elements ──────────────────────────────────────────────────────────────
 const templateSelect = document.getElementById("template-select");
