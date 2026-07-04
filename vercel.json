@@ -1,7 +1,13 @@
 {
   "outputDirectory": "frontend",
-  "rewrites": [
-    { "source": "/api/templates", "destination": "/api/templates" },
-    { "source": "/api/check",     "destination": "/api/check" }
+  "functions": {
+    "api/*.py": {
+      "runtime": "vercel-python@4"
+    }
+  },
+  "routes": [
+    { "src": "/api/templates", "dest": "/api/templates.py" },
+    { "src": "/api/check",     "dest": "/api/check.py" },
+    { "src": "/(.*)",          "dest": "/$1" }
   ]
 }
