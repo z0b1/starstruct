@@ -1,7 +1,7 @@
 {
+  "outputDirectory": "frontend",
   "rewrites": [
     { "source": "/api/templates", "destination": "/api/templates" },
-    { "source": "/api/check",     "destination": "/api/check" },
-    { "source": "/(.*)",          "destination": "/frontend/$1" }
+    { "source": "/api/check",     "destination": "/api/check" }
   ]
 }
