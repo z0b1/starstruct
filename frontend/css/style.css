@@ -3,12 +3,12 @@
 :root {
   --bg:       #0d0f14;
   --surface:  #13161f;
-  --raised:   #1a1e2b;
+  --raised:   #338eda;
   --border:   #252a3a;
-  --text:     #e2e6f3;
-  --muted:    #5a6180;
-  --accent:   #ec3750;   /* Hack Club red */
-  --accent-d: #3d0d14;
+  --text:     #a633d6;
+  --muted:    #8492a6;
+  --accent:   #ec3750;   
+  --accent-d: #ff8c37;
   --ok:       #33d17a;
   --warn:     #f6b93b;
   --err:      #ec3750;
